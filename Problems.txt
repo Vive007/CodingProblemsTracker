@@ -1,0 +1,7 @@
+https://leetcode.com/problems/two-sum
+https://codeforces.com/problemset/problem/118/A
+https://www.hackerrank.com/challenges/diagonal-difference/problem
+https://www.geeksforgeeks.org/subset-sum-problem-dp-25/
+https://atcoder.jp/contests/abc123/tasks/abc123_b
+https://practice.geeksforgeeks.org/problems/coin-change2448/1
+https://leetcode.com/problems/longest-common-subsequence

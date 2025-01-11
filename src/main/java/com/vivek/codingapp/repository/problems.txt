@@ -1,0 +1,3 @@
+https://leetcode.com/problems/two-sum/,Unsolved
+https://www.geeksforgeeks.org/trapping-rain-water/,Attempted
+https://codeforces.com/problemset/problem/1/A,Solved
