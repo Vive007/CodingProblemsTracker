@@ -2,12 +2,12 @@ package com.vivek.codingapp.models;
 public class ProblemLink {
     private String url;
     private String status; // Solved, Attempted, Unsolved
-    private long timeTaken; // Time taken to solve in minutes
+    private String timeTaken; // Time taken to solve in minutes
 
-    public ProblemLink(String url, String status) {
+    public ProblemLink(String url, String status,String timeTaken) {
         this.url = url;
         this.status = status;
-        this.timeTaken = 0;
+        this.timeTaken = timeTaken;
     }
 
     public String getUrl() {
@@ -18,7 +18,7 @@ public class ProblemLink {
         return status;
     }
 
-    public long getTimeTaken() {
+    public String getTimeTaken() {
         return timeTaken;
     }
 
@@ -26,7 +26,7 @@ public class ProblemLink {
         this.status = status;
     }
 
-    public void setTimeTaken(long timeTaken) {
+    public void setTimeTaken(String timeTaken) {
         this.timeTaken = timeTaken;
     }
 }

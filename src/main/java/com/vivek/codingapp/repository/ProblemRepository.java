@@ -18,8 +18,8 @@ public class ProblemRepository {
             String[] parts = line.split(",");
             String url = parts[0];
             String status = parts.length > 1 ? parts[1] : "Unsolved";
-            long timeTaken = parts.length > 2 ? Long.parseLong(parts[2]) : 0;
-            problems.add(new ProblemLink(url, status));
+            String timeTaken = parts.length > 2 ? (parts[2]) : "";
+            problems.add(new ProblemLink(url, status,timeTaken));
         }
         reader.close();
     }
