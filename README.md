@@ -63,11 +63,11 @@ Place the `problems.txt` file in the root directory before starting the applicat
 
 1. Clone this repository:
    ```
-   git clone https://github.com/Vive007/Coding-Problems-Tracker.git
+   git clone https://github.com/Vive007/CodingProblemsTracker.git
    ```
 2. Navigate to the project directory:
    ```
-   cd Coding-Problems-Tracker
+   cd CodingProblemsTracker
    ```
 3. Compile the Java files:
    ```
